@@ -1,0 +1,3 @@
+FROM  quay.io/jupyter/r-notebook:2023-11-19
+
+RUN conda install scipy=0.15.0
